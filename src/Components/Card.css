@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.card{
+   width: 250px;
+   height: 300px;
+   border: solid 0.1rem rgb(168, 163, 163);
+
+   background-color: white;
+   border-radius: 20px;
+   text-align: center;
+   padding: 1%;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   margin: 2px;
+}
+
+
+
+.profileImg{
+    border: solid 0.1rem rgb(168, 163, 163);
+    border-radius: 100%;
+    width: 80%;
+    height: 70%;
+}
+
+.btn{
+    width: 80%;
+    height: 5vh;
+    background-color: rgb(21, 161, 243);
+
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    outline: none;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(70, 142, 201);
+
+}

@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+//version 1
+// import Card from './Components/Card';
+// import './App.css';
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <Card/>
+//       <Card/>
+//       <Card/>
+//       <Card/>
+//       <Card/>
+      
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// -------------------------------------------------------------------------------
+
+
+// parents to child data transfer
+// version2 
+
+import Card from './Components/Card';
+import './App.css';
+import img1 from './Components/img1.jpg';
+import img2 from './Components/img2.jpg';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+<div className="App">
+      <Card name={'Rakesh'} imgP={img1} />
+      <Card name={'Snehal'} imgP={img2} />
+      <Card name={'Manjumal'}  imgP={img1} />
+      <Card name={'Shruti'} imgP={img2} />
+      <Card name={'Salman'}  imgP={img1} />
+  </div>
+    
   );
 }
 
