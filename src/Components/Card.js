@@ -1,18 +1,19 @@
 //version 1
 // import React from 'react';
 // import './Card.css';
-// import pic from './img2.jpg';
+// import pic from './images/img1.png;
 // export default function Card() {
 //   return (
 //     <div className='card'>
 //         <img src={pic} alt='no-img' className='profileImg'/><br/>
-//         <label>Ms.Nancy</label>
+//         <label>Snehal</label>
 //      <button className='btn'>Follow</button>
 //     </div>
 //   )
 // }
 
 // -----------------------------------------------------------------------
+// Receive data from parents
 //version 2
 // import React from 'react';
 // import './Card.css';
