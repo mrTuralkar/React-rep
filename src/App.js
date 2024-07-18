@@ -36,7 +36,7 @@ function App() {
 <div className="App">
       <Card name={'Snehal'} imgP={img1} />
       <Card name={'Rakesh'} imgP={img2} />
-      <Card name={'Manju'}  imgP={img3} />
+      <Card name={'Manjumal'}  imgP={img3} />
       <Card name={'Shruti'} imgP={img4} />
       <Card name={'Salman'}  imgP={img5} />
   </div>
